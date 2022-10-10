@@ -1,0 +1,46 @@
+:root{
+    --violet: #F0466F;
+    --yellorange: #FFD166;
+    --acqua: #0BD6A1;
+    --light-blue: #1389B2;
+}
+/* utilities */
+.bg_violet{
+    background-color: var(--violet);
+}
+.bg_yellorange{
+    background-color: var(--yellorange);
+}
+.bg_acqua{
+    background-color: var(--acqua);
+}
+.bg_lightblue{
+    background-color: var(--light-blue);
+}
+/* /utilities */
+/* commons */
+html{
+    font-size: .8rem;
+}
+body{
+    background-image: url("../img/blackboard-math.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* /commons */
+.blackboard::after{
+    content: "";
+    clear:both;
+    display: table;
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    margin: .5rem;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+    float: left;
+}
